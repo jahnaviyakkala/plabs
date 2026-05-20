@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets
+AUtool+/
+Heterogeneity/
+
+# Models and outputs
+outputs/
+*.pkl
+*.keras
+models/
+scaler.pkl
+
+# Logs
+*.log
+data/logs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.idea/
+.vscode/

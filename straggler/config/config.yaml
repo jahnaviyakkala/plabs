@@ -1,0 +1,32 @@
+# PLABS Configuration
+
+model:
+  threshold: 0.5
+  test_size: 0.2
+  random_state: 42
+  use_smote: true
+
+benchmarks:
+  - Grep
+  - Histogram-Ratings
+  - HistogramMovie
+  - PageRank
+  - WordCount
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  logs_dir: "data/logs"
+
+monitoring:
+  poll_interval: 1.0
+  rabbitmq:
+    host: "localhost"
+    queue: "plabs.stragglers"
+  influxdb:
+    url: "http://localhost:8086"
+    org: "plabs"
+    bucket: "stragglers"
+
+openai:
+  api_key: "${OPENAI_API_KEY}"  # Set via environment variable

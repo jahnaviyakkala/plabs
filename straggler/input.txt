@@ -1,0 +1,11 @@
+Hadoop is an open source framework
+MapReduce is a programming model
+Bigdata processing requires scalability
+Distributed computing enables faulttolerance
+HDFS stores large datasets efficiently
+Parallelization improves performance
+Supercalifragilisticexpialidocious is a very long word
+Data analytics is powerful
+Cluster computing is essential
+Faulttolerance and scalability are key features
+
